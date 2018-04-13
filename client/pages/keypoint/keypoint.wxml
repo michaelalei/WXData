@@ -1,0 +1,24 @@
+<!--pages/keypoint/keypoint.wxml-->
+<view style='overflow-x:hidden'>
+  <view style='margin-top:15rpx; text-align:center'>
+    <text class='tTitle'>人工智能数据知识点</text>
+  </view>
+
+  <view class='all' style=' height: {{maxHeight}}rpx '>
+    <text class='errorTip' wx:if='{{datas.length==0}}'>服务器暂时停止服务啦，稍后再试哈！</text>
+    <view class='item' bindtap='gotoClassOne' wx:for='{{datas}}' wx:key='{{index}}'>
+      <image class='cImg' src='{{item.img}}'></image>
+      <view class='vTitle'>
+        <text class='cTitle'>{{item.title}}</text>
+      </view>
+
+      <!--view>
+     <text class='price'>¥99</text>
+    </view-->
+
+    </view>
+  </view>
+  <!--
+  <button bindtap='testRedDot'>测试红点</button>
+  -->
+</view>

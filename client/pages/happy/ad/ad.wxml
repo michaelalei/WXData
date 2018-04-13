@@ -1,0 +1,43 @@
+<!--pages/happy/ad/ad.wxml-->
+<view>
+
+  <view style='margin-top:30rpx; text-align:center'>
+    <text class='tTitle'>免费获取课程活动规则</text>
+  </view>
+
+  <view style='margin-top:30rpx; text-align:left'>
+    <text class='tTitle'>【报名方法】：</text>
+  </view>
+
+  <view class='vContent'>
+    <text class='tContent'>1：分享文字+图片至您的朋友圈。
+    </text>
+  </view>
+
+  <view class='vContent'>
+    <text class='tContent'>2：将成功【分享至朋友群的截图】\n
+    通过客服按钮发送给客服学姐或学长。
+    客服学长会对大家的转发进行审核。
+    未转发 或 分组可见 都不算报名成功呢~
+    (上课不易，感谢支持！)
+    不想转发的小伙伴，可以付费学习，
+    课程价格199元，直接点击客服按钮，
+    申请付费学习即可！</text>
+  </view>
+
+  <view class='vContent'>
+    <text class='tContent'>
+    3：获取朋友圈圈转发内容及图片
+    </text>
+  </view>
+
+  <view style='margin-top:30rpx; text-align:center;margin-bottom:20rpx;'>
+    <text class='tTitle'>请点击报名客服按钮</text>
+  </view>
+
+<button open-type='contact' type='primary'>
+报名客服
+</button>
+
+</view>
+

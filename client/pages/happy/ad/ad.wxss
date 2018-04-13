@@ -1,0 +1,19 @@
+/* pages/happy/ad/ad.wxss */
+
+.tTitle
+{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.vContent
+{
+  margin-top:20rpx;
+  text-align:left;
+  margin-left: 50rpx;
+  margin-right: 30prx ;
+}
+.tContent
+{
+  font-size: 16px;
+}

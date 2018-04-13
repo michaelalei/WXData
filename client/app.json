@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/happy/happy",
+    "pages/happy/ad/ad",
+    "pages/keypoint/keypoint",
+    "pages/me/me",
+    "pages/me/config/config",
+    "pages/future/future",
+    "pages/course/course",
+    "pages/logs/logs",
+    "pages/index/index",
+    "pages/addCgi/addCgi",
+    "pages/section/section"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eeeeee",
+    "navigationBarTitleText": "为学数据",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#00A2E8",
+    "list": [
+      {
+        "pagePath": "pages/happy/happy",
+        "text": "课程",
+        "iconPath": "icon/gift_g_250.png",
+        "selectedIconPath": "icon/gift_250_blue.png"
+      },
+      {
+        "pagePath": "pages/keypoint/keypoint",
+        "text": "知识点",
+        "iconPath": "icon/plus_g_250.png",
+        "selectedIconPath": "icon/plus_250_blue.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "icon/head_g_250.png",
+        "selectedIconPath": "icon/head_250_blue.png"
+      }
+    ]
+  }
+}

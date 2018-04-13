@@ -1,0 +1,18 @@
+<!--pages/section.wxml-->
+<!-- <text>pages/section.wxml</text> -->
+
+<view>
+  正在播放 {{courseTopic}}
+  <video class="video" src="{{video_url}}" controls ></video>
+
+</view>
+<view>
+视频信息
+  <view>
+    标题: {{courseTopic}}
+  </view>
+</view>
+
+<view>
+评论列表
+</view>

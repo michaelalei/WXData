@@ -1,0 +1,5 @@
+/* pages/section.wxss */
+
+.video{
+  width: 100%
+}

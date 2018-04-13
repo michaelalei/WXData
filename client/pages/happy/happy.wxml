@@ -1,0 +1,64 @@
+<!--pages/happy/happy.wxml-->
+<image class = 'ad01' src='../../gif/ad_01.gif' bindtap='loadAd'></image>
+<view style='margin-top:15rpx'>
+  <text class='tCourse'>人工智能数据基础课程</text>
+</view>
+
+<view class = 'all' style=' height: {{mainCourseHeight}}rpx '>
+
+  <view wx:for="{{courseList}}" wx:key="item.id" class = 'course' bindtap='gotoClassOne' data-cid="{{item.id}}">
+    <image class = 'cImg' src = '{{item.icon}}'></image>
+    <view>
+     <text class='title'> {{item.title}} </text>
+    </view>
+    <view>
+     <text class='price'>¥99</text>
+    </view>
+  </view>
+
+  <!-- 
+  <view class = 'course' bindtap='gotoClassOne'>
+    <image class = 'cImg' src = '../../img/EXCEL基础.png'></image>
+    <view>
+     <text class='title'> 人工智能数据处理基础 </text>
+    </view>
+    <view>
+     <text class='price'>¥99</text>
+    </view>
+  </view>
+
+  <view class = 'course' bindtap='gotoCourse'>
+    <image class = 'cImg' src = '../../img/SPSS.png'></image>
+    <view>
+     <text class='title'> SPSS数据统计基础 </text>
+    </view>
+    <view>
+     <text class='price'>¥199</text>
+    </view>
+  </view>
+
+  <view class = 'course' bindtap='gotoClassOne'>
+    <image class = 'cImg' src = '../../img/python基础.png'></image>
+    <view>
+     <text class='title'> Python编程基础 </text>
+    </view>
+    <view>
+     <text class='price'>¥599</text>
+    </view>
+  </view>
+
+  <view class = 'course' bindtap='gotoClassOne'>
+    <image class = 'cImg' src = '../../img/python中级.png'></image>
+    <view>
+     <text class='title'> Python大数据编程 </text>
+    </view>
+    <view>
+     <text class='price'>¥699</text>
+    </view>
+  </view> -->
+
+</view>
+
+<view>
+  <image class = 'feature' src='../../img/职业规划发展.png' bindtap='loadFuture'></image>
+</view>
